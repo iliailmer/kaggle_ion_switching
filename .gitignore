@@ -1,1 +1,4 @@
-verpool-ion-switching/*
+verpool-ion-switching/
+*.csv
+.*
+
