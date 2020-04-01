@@ -1,4 +1,5 @@
 verpool-ion-switching/
 *.csv
+!out_of_fold_test_set_xgb_pred.csv
 .*
 .ipynb_checkpoints/
