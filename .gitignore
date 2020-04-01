@@ -1,4 +1,4 @@
 verpool-ion-switching/
 *.csv
 .*
-
+.ipynb_checkpoints/
