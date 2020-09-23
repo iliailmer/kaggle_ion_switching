@@ -90,7 +90,6 @@ test.loc[test.index[a:b], 'signal_undrifted'] = test.signal.values[a:b] - \
 
 # REMOVE BATCH 3 DRIFT
 
-
 def f2(x):
     return -(0.00788)*(x-625)**2+2.345 + 2.58
 
@@ -111,7 +110,6 @@ X_test = test[features]
 y = train['open_channels']
 oof_df = train[['time', 'open_channels']].copy()
 
-print("Alive here")
 
 params_xgb = {
     'colsample_bytree': 0.375,
